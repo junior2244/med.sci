@@ -889,29 +889,7 @@ a:active {
 	display: none;
 }
 
-#topBtn {
-  display: none;
-  position: fixed;
-  bottom: 0; 
-  z-index: 99;
-  border-top: var(--panel-border);
-  border-right: none;
-	border-bottom: var(--panel-border);
-	border-left: none;
-  outline: none;
-  width: var(--lfw);
-  transition: width 1s;
-  padding-top: .75rem;
-	padding-right: .75rem;
-	padding-bottom: 10vh;
-  background-color: var(--panel-top-button-color);
-  text-align: right;
-  line-height: 1;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: black;
-  cursor: pointer;
-}
+
 
 #topBtn:hover {
   filter: brightness(115%);
